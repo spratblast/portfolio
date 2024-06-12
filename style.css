@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    min-height: 100vh;
+}
+nav{
+    width: 60%;
+    background: rgba(38, 52, 64, 0.8);
+    position: fixed;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: "Teachers", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+.container{
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background: #263440;
+    font-family: "Teachers", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.logo{
+    width: 50%;
+    height: 130px;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.navbuttons{
+    width: 50%;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    font-family: "Teachers", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+footer{
+    width: 100%;
+    height: 130px;
+    border-top: #5e6770 1px solid;
+    display: flex;
+}
+.filler{
+    width: 100%;
+}
+.copyright{
+    width: 50%;
+    height: 130px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.contacts{
+    width: 50%;
+    height: 130px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+a:active, 
+a:hover,  
+a{
+  text-decoration: none;
+  color: white;
+}
+.allequip{
+    width: 100%;
+    height: 900px;
+    margin-top: 180px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pcdiv{
+width: 31%;
+text-align: left;
+}
+.progdiv{
+width: 31%;
+text-align: left;
+}
+.equipdiv{
+width: 31%;
+text-align: left;
+}
+.equptext{
+    width: 100%;
+    height: 100px;
+}
+.equptext>h1{
+    font-size: 50px;
+}
+.pccomp{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-top: 15px;
+}
+.comptext{
+    margin-left: 15px;
+    width: 60%;
+}
+.comptext>a{
+    text-align: center;
+    color: yellow;
+}
+.comptext>p{
+    margin-bottom: 15px;
+}
+.comptext>h2{
+    font-size: 20px;
+}
+.progserv{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.aboutme{
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 190px;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-bottom: 100px;
+}
+.logopic{
+    width: 100px;
+    height: 100px;
+}
+.mainblock{
+    margin-top: 200px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    height: 301px;
+}
+.narwallpic{
+    width: 200px;
+    height: 200px;
+    animation-fill-mode: forwards;
+    position: static;
+}
+
+@keyframes click{
+    from{
+        width: 200px;
+        height: 200px;
+    }
+    to{
+        width: 180px;
+        height: 180px;
+    }
+
+}
+@keyframes clickup{
+    from{
+        width: 180px;
+        height: 180px;
+    }
+    to{
+        width: 200px;
+        height: 200px;
+    }
+
+}
+.latestposts{
+    width: 100%;
+    min-height: 500px;
+    margin-top: 200px;
+    color:white;
+    font-size: 10px;
+}
+.postexample{
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 28%;
+    height: 120px;
+    background: #2a3a47;
+    border-radius: 15px;
+    box-shadow: inset 0 1px 0 #334757,0 2px 7px rgba(0, 0, 0, 0.025);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 15px;
+}
+.posts{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 10px;
+}
+.postexample:hover{
+    background: #2d3e4d;
+}
+.postsblock{
+    width: 100%;
+    margin-top: 200px;
+    color: white;
+}
+.postsh1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.postsblock>input{
+    width: 99%;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 1%;
+    background: #2a3a47;
+    box-shadow: inset 0 1px 0 #334757,0 2px 7px rgba(0, 0, 0, 0.025);
+    border: 0px solid black;
+    color: white;
+}
+.postsblock>input:hover{
+    background: #2d3e4d;
+    border: 0px;
+}
+.articlescount{
+    font-size: 12px;
+    margin-top: 15px;
+}
+input:active{
+    border: 0px solid black;
+}
+.mainpagetext:hover{
+    color: #99d9ea;
+}
+.workblock{
+    width: 60%;
+    margin-top: 200px;
+    margin-left: 20%;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.workblock>img{
+    width: 100%;
+    height: 450px;
+}
+.workblock>h1{
+    width: 100%;
+    font-size: 50px;
+}
+.workblock>h3{
+    width: 100%;
+    height: 30px;
+}
+.worktext{
+    width: 100%;
+    min-height: 200px;
+}
+.resumemain{
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+   color: white;
+}
+.resumemain>img{
+    width: 200px;
+    height: 200px;
+}
+.emaillol{
+    width: 100%;
+    color:white;
+    text-align: center;
+    font-size: 15px;
+}
+.socialcont>img{
+    width: 20px;
+    height: 20px;
+}
+.socials>p{
+    width: 92%;
+}
+.socials{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.socialcont{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+}
+.softskills>h2{
+    font-size: 12px;
+    color: #adcae3;
+}
+.engskills>h2{
+    font-size: 12px;
+    color: #adcae3;
+}
+.socialcont>a:hover{
+    color: #78e597;
+}
+.engskills{
+text-align: left;
+width: 100%;
+}
+.softskills{
+text-align: left;
+width: 100%;
+}
+.emptywork{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-device-width: 1070px){
+    nav{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 25px;
+    }
+    .container{
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .workblock>img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .workblock{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .aboutme{
+        font-size: 25px;
+    }
+    .latestposts>h3{
+        font-size: 30px;
+    }
+    .postexample{
+        width: 100%;
+        height: 310px;
+        font-size: 40px;
+    }
+    .postdesc{
+        font-size: 30px;
+        opacity: 0.5;
+        width: 70%;
+    }
+    .narwallpic{
+        width: 300px;
+        height: 300px;
+    }
+    .articlescount{
+        display: none;
+    }
+    .postsh1{
+        font-size: 50px;
+    }
+    .posts{
+        gap: 25px;
+        margin-bottom: 20px;
+    }
+    .equptext>h1{
+        font-size: 80px;
+    }
+    .equptext>p{
+        font-size: 50px;
+    }
+    .pcdiv, .progdiv, .equipdiv{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .allequip{
+       height: auto;
+    }
+    .pccomp>img{
+        width: 150px;
+        height: 150px;
+    }
+    .pccomp{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 30px;
+    }
+    .comptext>h2{
+        font-size: 35px;
+    }
+    .progdiv{
+        font-size: 30px;
+    }
+    .resumemain{
+        width: 100%;
+        font-size: 35px;
+        gap: 70px;
+    }
+    .socialcont>img{
+        width: 50px;
+        height: 50px;
+    }
+    .emaillol{
+        font-size: 60px;
+    }
+    .softskills>h2{
+        font-size: 29px;
+        color: #adcae3;
+    }
+    .engskills>h2{
+        font-size: 29px;
+        color: #adcae3;
+    }
+}
