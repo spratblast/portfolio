@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teachers:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
+  </head>
+  <body>
+    <nav>
+        <div class="logo">
+            <img class="logopic" src="images/narwallogo.png" alt="">
+            <a href="index.html"><h1>spratblast</h1></a>
+        </div>
+        <div class="navbuttons">
+            <a  href="garden.html"><p>My Works</p></a>
+            <a  href="uses.html"><p>Uses</p></a>
+            <a  href="resume.html"><p>Resume</p></a>
+            <a  href="about.html"><p>About</p></a>
+            <img src="" alt="">
+        </div>
+    </nav>
+    <div class="container">
+        <div class="filler">
+            <div class="postsblock">
+                <h1 class="postsh1">My Works</h1>
+                <input id="search" onchange="search()" placeholder="Search" type="text">
+                <p class="articlescount">none total articles</p>
+                <div class="posts">
+                    <div onclick=location.href="work1.html" id="Work1" class="postexample">
+                        <h2 class="postname">News prototype</h3>
+                        <h3 class="postdesc">News site with real news</h2>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        <p class="date">27 May 2024</p>
+                    </div>
+                    <div onclick=location.href="work2.html" id="Work2" class="postexample">
+                        <h2 class="postname">Coffee Recipes</h3>
+                        <h3 class="postdesc">Visulized coffee recipes</h2>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        <p class="date">27 May 2024</p>
+                    </div>
+                    <div onclick=location.href="work3.html" id="Work3" class="postexample">
+                        <h2 class="postname">Univerz site</h3>
+                        <h3 class="postdesc">Work with components on react</h2>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        <p class="date">27 May 2024</p>
+                    </div>
+                    <div onclick=location.href="work4.html" id="Work4" class="postexample">
+                        <h2 class="postname">Work4</h3>
+                        <h3 class="postdesc">Changing Content and Styles</h2>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        <p class="date">27 May 2024</p>
+                    </div>
+                    <div onclick=location.href="work5.html" class="postexample emptywork">
+                        <h2 class="postname">Work5</h3>
+                        <h3 class="postdesc">Description here, i add it later</h2>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        <p class="date">27 May 2024</p>
+                    </div>
+                    <div onclick=location.href="work6.html" class="postexample emptywork">
+                        <h2 class="postname">Work6</h3>
+                        <h3 class="postdesc">Description here, i add it later</h2>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        <p class="date">27 May 2024</p>
+                    </div>
+                    <div onclick=location.href="work7.html" class="postexample emptywork">
+                        <h2 class="postname">Work7</h3>
+                        <h3 class="postdesc">Description here, i add it later</h2>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        <p class="date">27 May 2024</p>
+                    </div>
+                    <div onclick=location.href="work8.html" class="postexample emptywork">
+                        <h2 class="postname">Work8</h3>
+                        <h3 class="postdesc">Description here, i add it later</h2>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        <p class="date">27 May 2024</p>
+                    </div>
+                    <div onclick=location.href="work9.html" class="postexample emptywork">
+                        <h2 class="postname">Work9</h3>
+                        <h3 class="postdesc">Description here, i add it later</h2>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        <p class="date">27 May 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <footer>
+        <div class="copyright">
+            ©spratblast 2024
+        </div>
+        <div class="contacts">
+            <a target="_blank" onclick="clicksound()" href="https://github.com/spratblast"><p>Github</p></a>
+            <a target="_blank" onclick="clicksound()" href="https://t.me/VsePoPlanyAizena"><p>Telegram</p></a>
+            <a target="_blank" onclick="clicksound()" href="https://x.com/Spratblast"><p>Twitter</p></a>
+        </div>
+    </footer>
+    </div>
+  </body>
+  <script>
+        function clicksound(){
+        let audio2 = new Audio();
+            audio2.src = 'sounds/click2.mp3';
+            audio2.autoplay = true;
+
+            return true;
+        }
+        function search(){
+            let searchtext = document.getElementById('search').value
+        }
+  </script>
+</html>
