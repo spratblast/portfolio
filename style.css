@@ -428,7 +428,10 @@ width: 100%;
         margin-left: 0%;
     }
     .aboutme{
-        font-size: 25px;
+        font-size: 40px;
+        width: 65%;
+        padding-left: 17.5%;
+        padding-right: 17.5%;
     }
     .latestposts>h3{
         font-size: 30px;
@@ -451,7 +454,7 @@ width: 100%;
         display: none;
     }
     .postsh1{
-        font-size: 50px;
+        font-size: 70px;
     }
     .posts{
         gap: 25px;
@@ -506,5 +509,30 @@ width: 100%;
     .engskills>h2{
         font-size: 29px;
         color: #adcae3;
+    }
+    .copyright{
+        font-size: 32px;
+    }
+    .contacts{
+        font-size: 32px;
+    }
+    .navbuttons{
+        font-size: 30px;
+    }
+    .equipdiv{
+        margin-bottom: 100px;
+    }
+    .mainblock>h1{
+        font-size: 70px;
+    }
+    .mainblock>p{
+        font-size: 40px;
+    }
+    .latestposts{
+        margin-top: 300px;
+    }
+    .postsblock>input{
+        height: 50px;
+        font-size: 20px;
     }
 }
